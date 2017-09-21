@@ -1,0 +1,18 @@
+/* 
+* @Author: Marte
+* @Date:   2017-08-26 11:29:06
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-26 14:13:30
+*/
+ #main{padding-top: 32px;}
+/*.fixed{position:fixed;top:0;left:0;right:0;Z-index:10;}*/
+/*#xibei{padding-bottom: 40px;}*/
+
+.imargin{
+    margin-top: 120px;
+}
+
+ #main .top{height: 110px;background-color: #ccc;Z-index:100; position:relative;}
+ #main .top i{
+    background:url('../img/buycar.fw.png') 0 0 ;width: 979px;height: 120px;
+}

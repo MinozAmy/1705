@@ -1,0 +1,83 @@
+section{
+        margin-top:30px;
+}
+*{margin: 0;padding: 0;}
+section #sec{
+    width:980px;
+    margin:0 auto;
+    overflow:hidden;
+}
+#sec .secR{
+    float:right;
+    width:770px;
+}
+#sec .secRt{
+    height:30px;
+    width:770px;
+    border-bottom:2px solid black;
+}
+#sec .secRt p span:nth-of-type(1){
+    display:block;
+    float:left;
+    width:70px;
+    height:30px;
+    color:black;
+    font-weight:600;
+    line-height:30px;
+}
+#sec .secRt p span:nth-of-type(2){
+    display:block;
+    float:left;
+    width:80px;
+    height:30px;
+    font-size:14px;
+    line-height:30px;
+    background:url('../img/up.jpg') no-repeat center center;
+}
+#sec .secRt p span:nth-of-type(3){
+    display:block;
+    float:left;
+    width:80px;
+    height:30px;
+    font-size:14px;
+    line-height:30px;
+    background:url('../img/down.jpg') no-repeat center center;
+}
+
+
+#sec .secRb{
+    width:800px;
+}
+
+#sec .secRb li{
+    float:left;
+    list-style:none;
+    width:200px;
+    height:250px;
+}
+img{
+padding-left: 2px;
+height:130px;width:150px;
+}
+#sec .secRb li p{
+    font-size: 12px;
+}
+#sec .secRb li p:nth-of-type(2){
+    text-align: left;
+    font-size: 12px;
+}
+#sec .secRb li p:nth-of-type(3){
+    text-align: left;
+    font-size: 12px;
+}
+#sec .secRb li p:nth-of-type(4){
+    text-align: left;
+    font-size: 12px;
+    color:green;
+}
+#sec .secRb li p:nth-of-type(5) span{
+    text-align: center;
+    border-bottom:1px solid black;
+    width:80px;
+    font-size: 12px;
+}

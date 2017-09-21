@@ -1,0 +1,14 @@
+/* 
+* @Author: Marte
+* @Date:   2017-08-26 14:45:56
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-26 14:58:34
+*/
+
+.contained{
+    width: 980px;margin: 0 auto;
+}
+#gouwuche{
+    height: 403px;display:flex;flex-direction:column;
+    background-color: pink;
+}

@@ -1,0 +1,153 @@
+/* 
+* @Author: Marte
+* @Date:   2017-08-26 09:43:21
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-28 14:12:38
+*/
+#main .main2{
+    height:236px;
+    margin:0 auto;
+    border:2px solid#CFCFCF;
+    padding:5px 15px 0 ;
+    
+}
+
+.active{
+    display:block;
+}
+#main .main2a{
+    height:30px;
+    border-bottom: 1px solid#CFCFCF;
+    overflow: hidden;
+}
+#main .main2a>p,.main2a header>div{
+    float:left;
+}
+#main .main2a p{
+    padding:0 24px 0 8px;
+    line-height: 30px;
+    font-weight: 600;
+}
+#main .main2a div{
+    width:64px;
+    height:30px;
+    line-height:30px;
+    font-size:12px;
+    text-align: center;
+}
+#main .main2a .active{
+    font-weight:600;
+    border:1px solid#CFCFCF;
+    border-bottom:none;
+}
+#main .main3{
+   overflow:hidden; 
+}
+#main .main3 .con{
+
+    height:1000px;
+    
+}
+#main .main3a{
+    width:745px;
+    float:left;
+}
+#main .main3b{
+    width:235px;
+    padding-top:20px;
+    float:right;
+}
+#main .main3b>p{ 
+    width:235px;
+   height:26px;
+   font-size: 12px;
+   line-height: 26px;
+    background-color: #505050;
+    color:#FFFFE8;
+}
+#main .main3b p span{
+   padding:2px 60px 2px 4px;
+    padding-right:60px;
+     position:relative;
+}
+#main .main3b span>i{
+    display:block;
+    width:10px;
+    height:15px;
+    background:url('../img/3.png') no-repeat;
+    position:absolute;
+    left:200px;
+    top:3px;
+}
+/* ---------------Special Package  js的描述------------- */
+
+/* .main3b .content img{
+    margin-left:65px;
+} */
+/* .main2 .content{
+    font-size: 12px;
+    margin-top:3px;
+}
+.main2 .content ul{
+    float:left;
+}
+.main2 .content ul li{
+    float:left;
+    width:160px;
+    padding-right:50px;
+}
+.main2 .content ul span{
+    color:#468B53;
+} */
+
+
+/* ---------Special Package     css做的描述------------------ */
+.main2q{
+    overflow:hidden;
+}
+#main .goods1{
+    width:200px;
+    float:left;
+}
+#main .goods1 li{
+    font-size:12px;
+    padding-right:50px;
+}
+
+#main .goods1 li .sp1{
+    color:#468B53;
+} 
+#main .goods2{
+   float:right;
+   margin-top:25px;
+}
+#main .goods2 li{
+    font-size:12px;
+    padding:3px 0;
+}
+#main .goods2 li:first-child{
+    text-decoration: line-through;
+}
+#main .goods2 li:nth-child(2){
+    color:#FF5763;
+}
+#main .goods2 li:nth-child(3){
+    color:#FF4500;
+    font-size:19px;
+}
+
+/* -----数据生成html  main3里main3b的描述---- */
+.main3b{float: right;}
+.main3b .list img{
+    margin-left:65px;
+}
+.main3b .list p{
+    font-size: 12px;
+    margin-top:3px;
+}
+.main3 .main3b .list .LP>span{
+    text-decoration: line-through;
+}
+.main3 .main3b .list .OP>span,.SP{
+    color:#468B53;
+} 

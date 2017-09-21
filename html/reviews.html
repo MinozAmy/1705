@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>reviews</title>
+	<link rel="stylesheet" href="../css/reviews.css">
+	<script src="../js/reviews.js"></script>
+</head>
+<body>
+	<div id="reviews">
+		<div class="description">
+			<h3>Product Description</h3>
+			<img src="../img/description.png" alt="">
+		</div>
+		<div class="reviews">
+			<h3>Customer Ratings and Reviews</h3>
+			<div class="one">
+				<div class="left">
+					<p>Average Rating:</p>
+					<div class="star">
+						<div class="goldStar"></div>
+					</div>
+					<p><span>82</span> reviews</p>
+					<p><a href="#">White a review</a><span>,and get Points.</span></p>
+				</div>
+				<div class="right">
+					<img src="../img/4(2).png" alt="">
+					<meter value="42" max='50'></meter><span></span>
+					<meter value="31" max='50'></meter><span></span>
+					<meter value="8" max='50'></meter><span></span>
+					<meter value="1" max='50'></meter><span></span>
+					<meter value="0" max='50'></meter><span></span>
+					
+				</div>
+			</div>
+			<div class="two">
+				<ul id="datalists">
+							
+				</ul>
+				<div class="fr">
+					<div id="page"></div><span class="next">Next ▶</span>
+				</div>
+			</div>
+			<div class="three">
+				<div class="header"></div>
+				<ul id="star">
+			        <li></li>
+			        <li></li>
+			        <li></li>
+			        <li></li>
+			        <li></li>
+			    </ul>
+				<ul>
+					<li>
+						<p>Your name:</p>
+						<input type="text" id="text" placeholder="Text">
+						<p>Content:</p>
+						<textarea name="" id="Content"></textarea>
+						<p>Share Photos:</p>
+						<input type="file" id="file" multiple>
+						<div class="identifyCode clearfix">
+							<input class="output">
+							<button id="identifyCode"></button>
+						</div>
+						<input type="submit" id="reviewsSubmit" value="Submit">
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>

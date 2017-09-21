@@ -1,0 +1,443 @@
+/* 
+* @Author: Marte
+* @Date:   2017-08-19 09:18:29
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-26 11:54:59
+*/
+/* 大概样式 */
+#header{
+    height:88px;
+    background: #FF4500;
+}
+#nav{
+    height:32px;
+    background:#2B2B2B;
+}
+#main{
+    height:1470px;
+    border-bottom: 1px solid#ccc;
+}
+/* ----------------------------------------------- */
+.contain{
+    width:980px;
+    margin:57px auto;
+    overflow:hidden;
+}
+/*nav的css*/
+#nav{
+    height:32px;
+    background:#2B2B2B;
+}
+#nav .nav_1{
+    width:210px;
+    float:left;
+    position:relative;
+}
+#nav .nav_1 p{
+    height:32px;
+    font-size:12px;
+    line-height:32px;
+    color:#CFCFC6;
+}
+#nav .nav_1>i{
+    display:block;
+    width:18px;
+    height:10px;
+    background:url("../img/1.fw.png")-300px -200px;
+    position:absolute;
+    left:170px;
+    top:11px;
+}
+
+#nav .nav_1 .nav_11{
+    font-size:12px;
+    padding-left:3px;
+    display:none;   
+
+    position:relative;
+    
+}
+#nav .nav_1 .nav_11 dl{
+    height:60px;
+    padding-top:10px;
+     position:relative;
+     width:210px;
+     left:-3px;
+}
+#nav .nav_1 .nav_11 dl a{
+     color:#6A625A;
+}
+#nav .nav_1 .nav_11 dl dt{
+    font-weight:600;
+}
+#nav .nav_11>dl dt>i{
+    display:block;
+    width:6px;
+    height:9px; 
+    background:url("../img/1.fw.png")0 -300px;
+    position:absolute;
+    right:30px;
+    top:10px;   
+}
+
+#nav .nav_1 .nav_11 dd{
+    float:left;
+}
+#nav .nav_1 .nav_11 dd>a{
+    padding-right:5px;
+}
+ #nav .nav_11>dl:nth-child(2),.nav_11>dl:nth-child(4),.nav_11>dl:nth-child(6){
+    background-color:#F1F1F1;
+} 
+#nav .nav_11 dl{
+      Z-index:10000;
+}
+#nav .nav_11 .d2{
+    width:580px;
+    height:435px;
+    background-color:#404040;
+    position:absolute;
+    left:210px;
+    top:0px;
+    overflow:hidden;
+}
+
+#nav .nav_11 dl:nth-child(2n-1){
+    background-color:#fff;      
+}
+#nav .nav_11>dl:hover{
+    background-color:#2B2B2B;
+}
+#nav .nav_11 :hover dt>i{
+    display:none;
+}
+#nav .nav_11>dl:hover a{
+    color:#CFCFCF;
+}
+#nav .nav_11>dl:hover .ulone{
+    display:block;
+}
+#nav .nav_11 .d2_l{
+    width:406px;
+    padding:5px; 
+    float:left;
+}
+#nav .nav_11 .d2_l h3{
+    color:#999999;
+}
+#nav .nav_11 .d2_l hr{
+    height:2px;
+    background-color:#999999;
+    border:none;
+}
+#nav .nav_11 .d2_l .d2_l1{
+    overflow:hidden;
+    color:#C6CFCF;
+}
+#nav .nav_11 .d2_l .d2_l1 ul{
+    float:left; 
+    padding:10px 25px 10px 5px;
+}
+#nav .nav_11 .d2_l .d2_l2{
+    overflow:hidden;
+    height:50px;
+}
+#nav .nav_11 .d2_l .d2_l2 ul{
+    float:left; 
+    padding-left:5px;
+    padding-top:20px;
+}
+#nav .nav_11 .d2_l .d2_l2 ul li{
+    float:left; 
+    padding-right:35px;
+
+}
+#nav .nav_11 .d2_l .d2_l2 ul li:nth-child(3) a{
+    padding-left:24px;
+}
+#nav .nav_11 .d2 ul li a{
+   color:#C6CFCF;
+   font-size:12px;  
+}
+#nav .nav_11 .d2_r{
+    padding-top:5px;     
+    float:right;
+    width:160px;
+    position:relative;
+}
+#nav .nav_11 .d2_r>input{  
+    width:130px;
+    height:20px;
+    background-color:#5A5A5A;
+    border:none;
+    color:#F5FFF5;
+    outline:none;
+}
+#nav .nav_11 .d2_r>i{
+    display:block;
+    width:12px;
+    height:11px;
+    background:url("../img/1.fw.png")0 -400px;
+    position:absolute;
+    right:40px;
+    top:8px;
+}
+#nav .nav_11 .d2_r p>i{
+    display:block;
+     width:17px;
+    height:11px;
+    background:url("../img/1.fw.png")-500px -400px;
+    position:absolute;
+    right:88px;
+    top:36px;    
+}  
+#nav .nav_11 .d2_r ul li{
+    position:relative;
+} 
+#nav .nav_11 .d2_r ul li>i{
+    display:block;
+     width:10px;
+    height:10px;
+    background:url("../img/1.fw.png")-250px -400px;
+    position:absolute;
+    right:15px;
+    top:4px;    
+}   
+
+/* ----------------------------hover后变化 */
+#nav .nav_1:hover p{
+    background-color:#404040;
+}
+#nav .nav_1:hover .nav_11{
+    display:block;
+}
+#nav .nav_2>a:hover{
+    background-color:#E54205;
+}
+#nav .nav_2>a:hover .nav_2>span{
+    
+    border:none;
+} 
+/* --------------------------------------------- */
+#nav .nav_2{
+    float:left;
+    overflow:hidden;
+}
+#nav .nav_2>a{
+    float:left;
+    height:32px;
+}
+#nav .nav_2  span{  
+    font-size:12px;
+    color:#F2FFF2;
+    padding:0 12px;
+    line-height:32px;
+    border-right:1px solid #ccc;
+    position:relative;
+}
+#nav .nav_2 a:last-child>span{
+    border-right:none;
+}
+#nav .nav_2 a:nth-child(4)>span{
+    padding-left:20px;
+    
+}
+#nav .nav_2 a:nth-child(4) i{
+    display:block;
+    width:11px;
+    height:12px;
+    background: url("../img/1.fw.png") 0 -200px;
+    position:absolute;
+    left:4px;
+    top:1px;
+}
+/*#nav .nav_2 a:nth-child(5)>span{
+    padding-left:30px;
+}*/
+#nav .nav_2 a:nth-child(3)>span{
+    padding-left:20px;
+}
+#nav .nav_2 a:nth-child(5){
+    padding-left: 20px;
+}
+#nav .nav_2 a:nth-child(5) i{
+    display:block;
+    width:19px;
+    height:13px;
+    background: url("../img/body精灵图.fw.png") -969px -504px;
+    position:absolute;
+    left:-12px;
+    top:1px;
+}
+
+/* ----------------------------------------------- */
+/* footer的css */
+#footer{
+    height:310px;
+}
+#footer .footer_t>p{
+    float:right;
+    height:52px;
+    font-size:12px;
+    line-height: 52px;
+    padding-right:6px;
+    position:relative;
+}
+#footer .footer_t p span{
+    padding-right: 4px;
+}
+#footer .footer_t p span:nth-child(3){
+    padding-right:15px;
+}
+#footer .footer_t p a{
+    padding-right:10px;
+}
+#footer .footer_t p .one{
+    display:block;
+    width:14px;
+    height:11px;
+    background:url("../img/1.fw.png")-350px 0;
+    position:absolute;
+    left:110px;
+    top:23px;
+}
+#footer .footer_t p .two{
+    float:right;
+    width:6px;
+    height:13px;
+    background:url("../img/1.fw.png")-500px 0;
+    position:absolute;
+    right:10px;
+    top:20px;
+}
+#footer .footer_t p>a:hover{
+    color:red;
+}
+#footer .footer_c{
+    border-top:2px  solid #5A5A5A;
+    overflow:hidden;
+}
+#footer .footer_c .footer_c1{
+    float:left;
+    width:69%;
+    padding-left:1%;
+}
+#footer .footer_c .footer_c1 dl{
+    float:left;
+    font-size:12px;
+   padding-right:55px;
+}
+#footer .footer_c .footer_c1 dl dt{
+    height:40px;
+    line-height:40px;
+    font-size:12px;
+}
+#footer .footer_c .footer_c1 dl dd>a{
+    color:#393333;
+}
+#footer .footer_c .footer_c1 dl:last-child dd{
+    padding-left:20px;
+    position:relative;
+}
+#footer .footer_c .footer_c1 dl:last-child dd i{
+    float:left;
+    width:18px;
+    height:19px;
+    background:url("../img/1.fw.png")no-repeat 0 0;
+    position:absolute;
+    left:0;
+    top:7px;
+    /* margin-top:-50%;
+    margin-left:-50%; */
+}
+#footer .footer_c .footer_c1 dl:last-child dd>a{
+    color:#D2691E;
+}
+#footer .footer_c .footer_c1 dl:last-child dd>span{
+    font-style:italic ;
+}
+/* footer 邮件 */
+#footer .footer_c .footer_c2{   
+    float:right;
+    width:30%;
+}
+#footer .footer_c .footer_c2 .footer_c22{
+    margin-top:15px;
+    padding-left:14%;  
+    position:relative;
+    border-left:1px solid#ccc; 
+}
+#footer .footer_c .footer_c22 p{
+    font-size:12px;
+}
+#footer .footer_c .footer_c22>i{
+    float:left;
+    width:41px;
+    height:62px;
+    background:url("../img/1.fw.png")-150px 0;
+    position:absolute;
+    left:0;
+    top:0;
+}
+#footer .footer_c .footer_c22 input{
+    margin-top:8px;
+    outline: none;
+    height:20px;
+}
+#footer .footer_c .footer_c22 #btn{
+    width:80px;
+    height:22px;
+    font-size:12px;
+    background:url("../img/1.fw.png")-248px 4px;
+    background-color:#424242;
+    color:#979797;
+}
+#footer .footer_b{
+    position:relative;
+}
+#footer .footer_b>i{
+    display:block;
+    width:737px;
+    height:40px;
+    background:url("../img/1.fw.png")0 -100px;
+    position:relative;
+    left:10%;
+    top:30px; 
+}
+#footer .footer_b p{
+    margin-top:47px;
+    text-align: center;
+}
+#footer .footer_b p>span{
+    color:#FF4B39;
+}
+#nav .nav_11 dl:first-child>.d2{
+    position:absolute;
+    left:210px;
+    top:0px;
+}
+#nav .nav_11 dl:nth-child(2)>.d2{
+    position:absolute;
+    left:210px;
+    top:-70px;
+}
+#nav .nav_11 dl:nth-child(3)>.d2{
+    position:absolute;
+    left:210px;
+    top:-140px;
+}
+#nav .nav_11 dl:nth-child(4)>.d2{
+    position:absolute;
+    left:210px;
+    top:-210px;
+}
+#nav .nav_11 dl:nth-child(5)>.d2{
+    position:absolute;
+    left:210px;
+    top:-280px;
+}
+#nav .nav_11 dl:nth-child(6)>.d2{
+    position:absolute;
+    left:210px;
+    top:-350px;
+}

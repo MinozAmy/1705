@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/hj_base.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/aside.css" />
+   
+   <style type="text/css">
+        #main{
+            margin-top: 60px;box-sizing:border-box;height: 810px;  
+        }
+    #car{
+        width: 985px;overflow:hidden;height: 650px;position:absolute;top: 119px;left: 298px;
+        border:none;
+    }
+    #car_b{
+         width: 1300px;overflow-x:hidden;height: 300px;position:absolute;top: 759px;
+        border:none;
+    }
+   </style>
+</head>
+<script>
+        /*
+            * 元素.className：改变元素的class属性
+         */
+        window.onload = function(){
+            var xiding = document.getElementById('xiding');
+            var main = document.getElementById('main');
+
+            //滚动窗口滚动条时触发
+            window.onscroll = function(){
+                if(window.scrollY>=100){
+                    // 添加class属性为fixed
+                    xiding.className = 'fixed';
+                    main.style.marginTop = '60px';
+                }else{
+                    // 清空class属性
+                   header.className = '';   
+                    main.style.marginTop = 0;
+                }
+            }
+        }
+    </script>
+<body>      
+    <div id="xiding">
+        <div id="header">
+            <div id="container">
+                <div class="top_l">
+                    <span>Welcome,</span>
+                    <span>
+                        <a href="#" class="zt_top">Sign in</a>
+                             or
+                        <a href="#" class="zt_top">Reqister</a>
+                    </span>
+                    <a href="#" class="active">test,</a>
+                    <span><a href="#" class="zt_top">Sign out</a></span>
+                    <i></i>
+                </div>           
+                <div class="top_r">
+                    <div class="top_rt">
+                        <ul class="tb">
+                            <li><a href="#" class="s1">My Account</a> <i class="q1"></i>
+                            <li><i class="z"></i>My Wallet</li>
+                            <li><i class="z1"></i>My Orders</li>
+                            <li><i class="z2"></i>My Profile</li>
+                            <li><i class="z3"></i>My Coupuns</li>
+                            <li><i class="z4"></i>Wish List</li>
+                            <li><i class="z5"></i>My Messages</li>
+                        </ul>
+                        <ul>
+                    <li class="s2">
+                    <i class="q2"></i> 
+                    <a href="#">1</a>  
+                    <a href="#">Items</a>
+                    <a href="#" style="color:#FFCC00">$2946</a>
+                    <i class="q3"></i>
+                    <ul class="tb1">
+                        <li>
+                            <i class="x1"></i>
+                            <a href="#">Gucci Vintage Web Leather Boston Tote Baq 247205 Red <span>$219 x 1 </span></a>
+                        </li>
+                        <li>
+                            <i class="x2"></i>
+                            <a href="#">Gucci Vintage Web Leather Boston Tote Baq 247205 Red <span class="y1">$219 x 1 </span></a>
+                        </li>
+                        <li>
+                            <i class="x3"></i>
+                            <a href="#">Gucci Vintage Web Leather Boston Tote Baq 247205 Red 
+                                <span class="y1">$219 x 1 </span></a>
+                        </li>               
+                    </ul>           
+                    </li> 
+                    <li> 
+                    <a href="#">
+                    <span class="s3">Order Tracking</span>
+                    </a>
+                    </li>
+                    <li>
+                    <i class="s4"></i>
+                    <a href="#">Help</a>
+                    </li>
+                        </ul>   
+                        <div class="header_rc" style="padding:10px 0 0 350px;">
+                    <input type="text" placeholder="  pleace under the keyword"/>
+                    <input type="submit" value="search"/>  
+                        </div>     
+                        <div class="header_rb" style="padding:10px 0 0 350px;">
+                    <p class="header_bb">
+                        <ul>
+                            <li><a href="#"><span>LV handbags </span></a></li>
+                            <li><a href="#"><span>shoes </span></a></li>
+                            <li><a href="#"><span>Rolex watch</span></a></li>
+                        </ul>    
+                    </p>
+                        </div>
+                    </div>
+                </div>  
+        </div>
+        <div id="nav">
+            <div class="contain">
+                <div class="nav_1">
+                    <p>ALL  CATEGORIES </p><i></i>
+                    <div class="nav_11">
+                        <dl>
+                            <dt><a href="#">Bags</a><i></i></dt>
+                            <dd><a href="#">Luggage</a></dd>
+                            <dd><a href="#">Boston</a></dd>
+                            <dd><a href="#">Mayfair</a></dd>
+                            <dd><a href="#">Birkin</a></dd>
+                            <dd><a href="#">Monogeam</a></dd>
+                            <dd><a href="#">Multicolore</a></dd>
+                            <div class="d2">
+                                <div class="d2_l">
+                                    <h3>HFL</h3>
+                                    <hr />
+                                    <div class="d2_l1">
+                                        <ul class="ul">
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills</a></li>
+                                            <li><a href="#">Cincinnati Bengals</a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>    
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>    
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>                  
+                                        </ul>
+                                    </div>
+                                    <h3>NBA</h3>
+                                    <hr />
+                                    <div class="d2_l2">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                        </ul>
+                                    </div>
+                                    <h3>MLB</h3>
+                                    <hr />
+                                    <div class="d2_l2">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul>
+                                    </div>
+                                    <h3>NHL</h3>
+                                    <hr />
+                                    <div class="d2_l2">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul> 
+                                    </div>                                  
+                                </div>
+                                <div class="d2_r">
+                                    <input type="text"  value="New Arrivals"/><i></i>
+                                    <p><span>Final Sale</span><i></i></p>
+                                    <ul>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i ;></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">Bags</a><i style="background-position:-200px -300px;"></i></dt>
+                            <dd><a href="#">Luggage</a></dd>
+                            <dd><a href="#">Boston</a></dd>
+                            <dd><a href="#">Mayfair</a></dd>
+                            <dd><a href="#">Birkin</a></dd>
+                            <dd><a href="#">Monogeam</a></dd>
+                            <dd><a href="#">Multicolore</a></dd>
+                            <div class="d2">
+                                <div class="d2_l">
+                                    <h3>HFL</h3>
+                                    <hr />
+                                    <div class="d2_l1">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills</a></li>
+                                            <li><a href="#">Cincinnati Bengals</a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>    
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>    
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>                  
+                                        </ul>
+                                    </div>
+                                    <h3>NBA</h3>
+                                    <hr />
+                                    <div class="d2_l2">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                        </ul>
+                                    </div>
+                                    <h3>MLB</h3>
+                                    <hr />
+                                    <div class="d2_l2">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul>
+                                    </div>
+                                    <h3>NHL</h3>
+                                    <hr />
+                                    <div class="d2_l2">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul> 
+                                    </div>                                  
+                                </div>
+                                <div class="d2_r">
+                                    <input type="text"  value="New Arrivals"/><i></i>
+                                    <p><span>Final Sale</span><i></i></p>
+                                    <ul>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i ;></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">Bags</a><i></i></dt>
+                            <dd><a href="#">Luggage</a></dd>
+                            <dd><a href="#">Boston</a></dd>
+                            <dd><a href="#">Mayfair</a></dd>
+                            <dd><a href="#">Birkin</a></dd>
+                            <dd><a href="#">Monogeam</a></dd>
+                            <dd><a href="#">Multicolore</a></dd>
+                            <div class="d2">
+                                <div class="d2_l">
+                                    <h3>HFL</h3>
+                                    <hr />
+                                    <div class="d2_l1">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills</a></li>
+                                            <li><a href="#">Cincinnati Bengals</a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>    
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>    
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>                  
+                                        </ul>
+                                    </div>
+                                    <h3>NBA</h3>
+                                    <hr />
+                                    <div class="d2_l2">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                        </ul>
+                                    </div>
+                                    <h3>MLB</h3>
+                                    <hr />
+                                    <div class="d2_l2">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul>
+                                    </div>
+                                    <h3>NHL</h3>
+                                    <hr />
+                                    <div class="d2_l2">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul> 
+                                    </div>                                  
+                                </div>
+                                <div class="d2_r">
+                                    <input type="text"  value="New Arrivals"/><i></i>
+                                    <p><span>Final Sale</span><i></i></p>
+                                    <ul>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i ;></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">Bags</a><i style="background-position:-200px -300px;"></i></dt>
+                            <dd><a href="#">Luggage</a></dd>
+                            <dd><a href="#">Boston</a></dd>
+                            <dd><a href="#">Mayfair</a></dd>
+                            <dd><a href="#">Birkin</a></dd>
+                            <dd><a href="#">Monogeam</a></dd>
+                            <dd><a href="#">Multicolore</a></dd>
+                            <div class="d2">
+                                <div class="d2_l">
+                                    <h3>HFL</h3>
+                                    <hr />
+                                    <div class="d2_l1">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills</a></li>
+                                            <li><a href="#">Cincinnati Bengals</a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>    
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>    
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>                  
+                                        </ul>
+                                    </div>
+                                    <h3>NBA</h3>
+                                    <hr />
+                                    <div class="d2_l2">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                        </ul>
+                                    </div>
+                                    <h3>MLB</h3>
+                                    <hr />
+                                    <div class="d2_l2">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul>
+                                    </div>
+                                    <h3>NHL</h3>
+                                    <hr />
+                                    <div class="d2_l2">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul> 
+                                    </div>                                  
+                                </div>
+                                <div class="d2_r">
+                                    <input type="text"  value="New Arrivals"/><i></i>
+                                    <p><span>Final Sale</span><i></i></p>
+                                    <ul>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i ;></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">Bags</a><i></i></dt>
+                            <dd><a href="#">Luggage</a></dd>
+                            <dd><a href="#">Boston</a></dd>
+                            <dd><a href="#">Mayfair</a></dd>
+                            <dd><a href="#">Birkin</a></dd>
+                            <dd><a href="#">Monogeam</a></dd>
+                            <dd><a href="#">Multicolore</a></dd>
+                            <div class="d2">
+                                <div class="d2_l">
+                                    <h3>HFL</h3>
+                                    <hr />
+                                    <div class="d2_l1">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills</a></li>
+                                            <li><a href="#">Cincinnati Bengals</a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>    
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>    
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>                  
+                                        </ul>
+                                    </div>
+                                    <h3>NBA</h3>
+                                    <hr />
+                                    <div class="d2_l2">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                        </ul>
+                                    </div>
+                                    <h3>MLB</h3>
+                                    <hr />
+                                    <div class="d2_l2">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul>
+                                    </div>
+                                    <h3>NHL</h3>
+                                    <hr />
+                                    <div class="d2_l2">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul> 
+                                    </div>                                  
+                                </div>
+                                <div class="d2_r">
+                                    <input type="text"  value="New Arrivals"/><i></i>
+                                    <p><span>Final Sale</span><i></i></p>
+                                    <ul>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i ;></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">Bags</a><i style="background-position:-200px -300px;"></i></dt>
+                            <dd><a href="#">Luggage</a></dd>
+                            <dd><a href="#">Boston</a></dd>
+                            <dd><a href="#">Mayfair</a></dd>
+                            <dd><a href="#">Birkin</a></dd>
+                            <dd><a href="#">Monogeam</a></dd>
+                            <dd><a href="#">Multicolore</a></dd>
+                            <div class="d2">
+                                <div class="d2_l">
+                                    <h3>HFL</h3>
+                                    <hr />
+                                    <div class="d2_l1">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills</a></li>
+                                            <li><a href="#">Cincinnati Bengals</a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>    
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>    
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                            <li><a href="#">Baltimore Ravens</a></li>                  
+                                        </ul>
+                                    </div>
+                                    <h3>NBA</h3>
+                                    <hr />
+                                    <div class="d2_l2">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                            <li><a href="#">Cincinnati Bengals </a></li>
+                                        </ul>
+                                    </div>
+                                    <h3>MLB</h3>
+                                    <hr />
+                                    <div class="d2_l2">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul>
+                                    </div>
+                                    <h3>NHL</h3>
+                                    <hr />
+                                    <div class="d2_l2">
+                                        <ul>
+                                            <li><a href="#">Baltimore Ravens</a></li>
+                                            <li><a href="#">Buffalo Bills </a></li>
+                                        </ul> 
+                                    </div>                                  
+                                </div>
+                                <div class="d2_r">
+                                    <input type="text"  value="New Arrivals"/><i></i>
+                                    <p><span>Final Sale</span><i></i></p>
+                                    <ul>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i ;></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                        <li><a href="#">Louis Vuitton</a><i></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </dl>
+                    </div>
+                </div>
+                <div class="nav_2">
+                    <a href="#"><span>Home</span></a>
+                    <a href="#"><span>New Arrivals</span></a>
+                    <a href="#"><span>Final Sale</span></a>
+                    <a href="#"><span><i></i>Brands</span></a>
+                    <a href="#"><span><i></i>Albums</span></a>
+                </div> 
+            </div>
+        </div>
+      
+       </div>
+    </div>
+
+    <div id="main" class="contained">
+            <iframe src="buyCar01.html" id="car"></iframe>
+            <iframe src="gouwuche.html" id='car_b'></iframe>
+    </div>
+    <div id="footer">
+        <div class="contain">
+                <div class="footer_t  clearfix">
+                    <p>
+                        <span>Total</span>
+                        <span><strong>279</strong></span>
+                        <span>record</span>
+                        <i class="one"></i>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#"><span>Next</span></a>
+                        <i class="two"></i>
+                    </p>
+                </div>
+                <div class="footer_c  clearfix">
+                    <div class="footer_c1">
+                        <dl>
+                            <dt><strong>Costorn service</strong></dt>
+                            <dd><a href="#">shopping guide</a></dd>
+                            <dd><a href="#">return polity</a></dd>
+                            <dd><a href="#">FAQ</a></dd>
+                            <dd><a href="#">shipping</a></dd>
+                            <dd><a href="#">contact US</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><strong>Company info</strong></dt>
+                            <dd><a href="#">About US</a></dd>
+                            <dd><a href="#">why buy for us</a></dd>
+                            <dd><a href="#">privacy&sevice polity</a></dd>
+                            <dd><a href="#">Term of Use</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><strong>Costorn service</strong></dt>
+                            <dd><a href="#">wholesale</a></dd>
+                            <dd><a href="#">point&Coupon,gifts</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><strong>john our comunity</strong></dt>
+                            <dd><i></i><a href="#">Add US</a><br /><span>on face book</span></dd>
+                            <dd><i style="background-position:-50px 0;"></i><a href="#">follow us</a><br /><span>on twitter</span></dd>
+                            <dd><i style="background-position:-100px 0;"></i><a href="#">Read Us</a><br /><span>on our offcial blog</span></dd>
+                        </dl>
+                    </div>
+                    <div class="footer_c2 clearfix">
+                        <div class="footer_c22">
+                            <i></i>
+                            <p>Enter your email address and get your free   E-Book</p>
+                            <input type="email" placeholder="Enter your  email address" /><br>
+                            <input type="button" value="Subcrice" id="btn" />
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_b">
+                    <i></i>
+                    <p>@2008-2013 <span>Tidemalls.com </span>All Right Reserved.</p>
+                </div>    
+        </div>     
+    </div>
+    
+     
+</body>
+</html>

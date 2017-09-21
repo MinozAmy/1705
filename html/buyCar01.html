@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>购物车</title> 
+        <link rel="stylesheet" type="text/css" href="../css/buyCar.css" />
+        <script type="text/javascript" src="../js/buycar01.js"></script>
+</head>
+<body>
+<div class="container">
+    <!-- 购物车1,2,3,4小标签 -->
+        <div class="icon">
+            <span><img src="../img/buycar.png" alt="" /></span>
+            <span class="no_1">
+                <h2>1.</h2>
+                <p>MY SHOPPING CRAT</p>
+                <img src="../img/right_arrow.png" alt="" />
+            </span>      
+            <span>
+                <h2>2.</h2>
+                <p>SHIPPING</p>
+                <img src="../img/right_arrow.png" alt="" />
+            </span>
+            <span>
+                <h2>3.</h2>
+                <p>PAYMENT</p>
+                <img src="../img/right_arrow.png" alt="" />
+            </span>
+            <span>
+                <h2>4.</h2>
+                <p>ORDER SUCCESSFUL</p>
+            </span>
+        </div>
+
+        <!-- 购物车一栏 -->
+        <table id="carTable">
+            <thead>
+                <tr class="head">
+                    <th>Your Item(s)</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total price</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 第一行 -->
+                <tr>
+                    <td class="goods"><img src="../img/body_box_section4_1.png" alt="" />
+                    <span>Gucci Dressage Original GG Canvas Tote Bag 296850 Coffee</span>
+                    <p>ID:#24234</p><br />
+                    <p>Size:Default</p>
+                    </td>
+                    <!-- 加减数量 -->
+                    <td class="count">
+                        <span class="reduce">-</span>
+                        <input type="text" class="count-input" value="1" />
+                        <span class="add">+</span>
+                    </td>
+
+                    <td class="price">
+                        <span>189.93py6.</span><br />
+                        <span>120.69py6.</span>
+                    </td>
+                    <!-- Total price -->
+                    <td class="subtotal">
+                        <span>120.69py6.</span><br />
+                        <span>You save <i>69.24</i>py6.</span>
+                    </td>
+                    <!-- remove删除 -->
+                    <td class="operation">
+                        <span class="delete">
+                            <button>&times;</button>
+                        </span>
+                    </td>
+                </tr>
+                <!-- 第二行 -->
+                 <tr>
+                    <td class="goods"><img src="../img/body_box_section4_12.png" alt="" />
+                    <span>Gucci Dressage Original GG Canvas Tote Bag 296850 Coffee</span><br />
+                    <p>ID:#24234</p><br />
+                    <p>Size:Default</p>
+                    </td>
+                    <!-- 加减数量 -->
+                    <td class="count">
+                        <span class="reduce">-</span>
+                        <input type="text" class="count-input" value="1" />
+                        <span class="add">+</span>
+                    </td>
+
+                    <td class="price">
+                        <span>689.28py6.</span><br />
+                        <span>600.23py6.</span>
+                    </td>
+                    <!-- Total price -->
+                    <td class="subtotal">
+                        <span>600.23py6.</span><br />
+                        <span>You save <i>89.05</i> py6.</span>
+                    </td>
+                    <!-- remove删除 -->
+                    <td class="operation">
+                        <span class="delete">
+                            <button>&times;</button>
+                        </span>
+                    </td>
+                </tr>
+                <!-- 第三行 -->
+                 <tr>
+                    <td class="goods"><img src="../img/body_box_section4_4.png" alt="" />
+                    <span>Gucci Dressage Original GG Canvas Tote Bag 296850 Coffee</span>
+                    <p>ID:#24234</p><br />
+                    <p>Size:Default</p>
+                    </td>
+                    <!-- 加减数量 -->
+                    <td class="count">
+                        <span class="reduce">-</span>
+                        <input type="text" class="count-input" value="1" />
+                        <span class="add">+</span>
+                    </td>
+
+                    <td class="price">
+                        <span>1896py6.</span><br />
+                        <span>1209py6.</span>
+                    </td>
+                    <!-- Total price -->
+                    <td class="subtotal">
+                        <span>1209py6.</span><br />
+                        <span>You save <i>687.00</i> py6.</span>
+                    </td>
+                    <!-- remove删除 -->
+                    <td class="operation">
+                        <span class="delete">
+                            <button>&times;</button>
+                        </span>
+                    </td>
+                </tr>
+                <!-- 第四行 -->
+                 <tr>
+                    <td class="goods"><img src="../img/body_box_section4_6.png" alt="" />
+                    <span>Gucci Dressage Original GG Canvas Tote Bag 296850 Coffee</span>
+                    <p>ID:#24234</p><br />
+                    <p>Size:Default</p>
+                    </td>
+                    <!-- 加减数量 -->
+                    <td class="count">
+                        <span class="reduce">-</span>
+                        <input type="text" class="count-input" value="1" />
+                        <span class="add">+</span>
+                    </td>
+
+                    <td class="price">
+                        <span>289py6.</span><br />
+                        <span>220py6.</span>
+                    </td>
+                    <!-- Total price -->
+                    <td class="subtotal">
+                        <span>220py6.</span><br />
+                        <span>You save <i>69.00</i> py6.</span>
+                    </td>
+                    <!-- remove删除 -->
+                    <td class="operation">
+                        <span class="delete">
+                            <button>&times;</button>
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="foot" id="foot">
+            <a class="esc" id="esc" href="javascript:;">Continue Shopping</a>
+            <div class="foot_r">
+                    <!-- cart Total -->
+                <div class="total">Cart Total:<span id="priceTotal">0.00</span>py6.</div>
+                <div class="save">Your Total Saving:<span id="saveTotal">0.00</span>py6.</div>
+                <button class="checkout" >PROCEED TO CHECKOUT</button>
+            </div>
+         </div>
+</div>
+</body>
+</html>

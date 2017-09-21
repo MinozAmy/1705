@@ -1,0 +1,89 @@
+ 
+* @Author: Marte
+* @Date:   2017-08-20 14:57:32
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-21 20:46:55
+*/
+
+/*#aside{
+    width: 200px;height: 1500px;float: left;background-color:#fff ;
+}*/
+#main{margin-top: -20px;}
+
+#aside h3{
+   border-bottom:2px solid #ccc;width: 200px;
+}
+#aside #line{
+    width: 60px;border-top:2px solid #000;height: 2px;margin-top: -2px;
+}
+#aside .aside_t{
+    font-size:12px;line-height: 24px;
+}
+#aside .aside_t dl{
+   width: 200px;
+}
+#aside .aside_t dl dt{
+    font-weight:bold;position:relative;padding-left: 20px;
+    
+}
+#aside .aside_t dl dt i{
+    background:url('../img/body精灵图.fw.png') -160px -750px;
+        width: 11px;height: 11px;left: 0;top: 6px;
+}
+#aside .aside_t dl dd{
+    position:relative;padding-left: 20px;background-color:#fff;
+}
+#aside .aside_t dl dd i{
+    background:url('../img/body精灵图.fw.png') -181px -752px;
+        width: 11px;height: 9px;left: 0;top: 6px;
+}
+#aside .aside_t dl:last-child dd:nth-child(10) i,#aside .aside_t dl:last-child dd:nth-child(9) i{
+    background:url('../img/body精灵图.fw.png') -208px -750px;
+        width: 14px;height: 10px;left: 0;top: 6px;
+}
+.contained{margin: 0 auto;width: 980px;overflow: hidden;}
+
+#aside .aside_t dl dd a:link {
+        color:red;
+}
+#aside .aside_t dl dd a:visited{
+       color:#000; 
+}
+#aside .aside_t dl dd a:hover{
+    color:red;
+}
+#aside .aside_t dl dd a:active{
+    color:red;
+}
+.aside_b{height: 1000px;width: 200px;margin-top: 25px;}
+.aside_b ul li{
+    position:relative;box-sizing:border-box;font-size:12px;line-height: 20px;padding-top: 152px;margin-top: 10px;overflow:hidden;
+}
+.aside_b ul li:first-child{
+    padding-top: 173px;
+}
+.aside_b ul li:nth-child(2){
+
+}
+.aside_b ul li:first-child i{
+    background:url('../img/body精灵图.fw.png') -723px -912px;
+        width: 175px;height: 163px;left: 0;top: 0px;
+}
+.aside_b ul li:nth-child(2) i{
+    background:url('../img/body精灵图.fw.png') -926px -915px;
+        width: 175px;height: 142px;left: 0;top: 0px;
+}
+.aside_b ul li:nth-child(3) i{
+    background:url('../img/body精灵图.fw.png') -900px -610px;
+        width: 175px;height: 142px;left: 0;top: 0px;
+}
+.aside_b ul li p span:nth-child(4){
+    color:red;
+}
+.aside_b ul li p span:nth-child(6){
+    color:green;
+}
+.aside_b ul li:hover i{
+transform:scale(1.1,1.1);
+}
+#main_l{float: left;margin-top: 149px;}

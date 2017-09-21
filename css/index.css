@@ -1,0 +1,256 @@
+body{
+	margin:0;
+	padding:0;
+}
+a{text-decoration: none;}
+
+#container{
+	width:980px;
+	margin:0 auto;
+
+}
+#header{
+    background-color: #FF4500;
+    height:90px;
+    width:100%;
+}
+.top_l {
+    position: relative;
+    color:#fff;
+    font-size: 12px;
+    width: 340px;
+    float: left;
+}
+
+.top_l a{
+	color:#fff;
+	text-decoration: underline;
+}
+.top_l .active{
+	color:#FFBB00;
+	text-decoration: none;
+}
+.top_l i{
+	background-position: -776px -543px ;
+	width:255px;
+	height:40px;
+	top: 20px;
+	left: 0;
+}
+
+.top_rt .tb{
+	margin:0 auto;
+    color:#ffffff;
+    float: right;
+}
+.top_rt .tb li{
+	position:relative;
+	float:left;
+	border: none;
+	height:20px;
+	width:85px;
+	font-size: 12px;
+	padding:0 10px;
+}
+.top_rt .tb li a{
+	color:#ffffff;
+}
+.top_rt .tb li .q1{
+	background-position: -341px -971px;
+	width: 11px;
+	height: 10px;
+	right:11px;
+	top: 3px;
+}
+.top_rt .tb li ul{
+ 	visibility: hidden;
+    top:17px;
+    right:-55px;
+ 	position:absolute;	
+}
+.top_rt .tb li ul li{
+	width: 100%;
+	float:none;
+	height:25px;
+	width:130px;
+	line-height: 25px;
+	position:relative;
+	border-bottom: 1px dashed black;
+	text-align: center;
+}
+.top_rt .tb li ul li .z{
+    background-position:-342px -935px;
+    width:14px;
+    height:20px;
+    right:80%;
+    top:5px;   
+}
+.top_rt .tb li ul li .z1{
+    background-position:-369px -935px;
+    width:14px;
+    height:20px;
+    right:80%;
+    top:5px;   
+}
+.top_rt .tb li ul li .z2{
+    background-position:-397px -935px;
+    width:14px;
+    height:20px;
+    right:80%;
+    top:5px;   
+}
+.top_rt .tb li ul li .z3{
+    background-position:-419px -935px;
+    width:14px;
+    height:20px;
+    right:80%;
+    top:5px;   
+}
+.top_rt .tb li ul li .z4{
+    background-position:-450px -935px;
+    width:14px;
+    height:20px;
+    right:80%;
+    top:5px;   
+}
+.top_rt .tb li ul li .z5{
+    background-position:-480px -935px;
+    width:14px;
+    height:20px;
+    right:80%;
+    top:5px;   
+}
+
+
+/***右边hover1样式***/
+.top_rt ul li:hover ul li ul{
+	visibility: hidden;
+}
+.top_rt ul li ul li:hover ul{
+	visibility:hidden;
+    background:#ffffff;
+    color:#2b2b2b;
+}
+
+.top_rt ul li .s1:hover{
+ background-color:#ffffff;
+color:#FF4500;}
+ .top_rt ul li:hover ul{
+ visibility:visible;}
+ .top_rt ul li:hover ul li{
+ background-color:#ffffff;
+ color:black;}
+/*结束**/
+
+.top_rt ul li .q2{
+	background-position: -357px -971px;
+	width:17px;
+	height:13px;
+	left:-8px;
+	top:1px;
+}
+.top_rt ul li .q3{
+	background-position: -341px -971px;
+	width: 11px;
+	height: 10px;
+	right:2px;
+	top: 3px;
+}
+
+
+.top_rt .tb .tb1{
+	position:relative;
+	float:left;
+	
+}
+.top_rt .tb .tb1 li a{
+	display: block;
+	width:169px;
+   height:20px;
+   line-height: 16px;
+   color:black;
+   margin-left: 50px;
+   text-decoration: underline;
+}
+
+
+.top_rt .tb .tb1 li{
+   width:227px;
+   height:70px;
+   float: none;
+   font-size: 12px;
+   padding-top:15px;
+   top:-16px;
+   right:45%;
+   border:none;
+
+}
+
+.top_rt .tb .tb1 li .x1{
+    background-position:-485px -867px;
+    width:35px;
+    height:37px;
+    right:80%;
+    top:20px;   
+}
+.top_rt .tb .tb1 li .x2{
+    background-position:-416px -867px;
+    width:35px;
+    height:37px;
+    right:80%;
+    top:20px;   
+}
+.top_rt .tb .tb1 li .x3{
+    background-position:-348px -867px;
+    width:35px;
+    height:37px;
+    right:80%;
+    top:20px;   
+}
+
+
+
+.top_rt .tb li a .s3{
+	display: block;
+	width:90px;
+	height:14px;
+	text-decoration: underline;
+}
+
+.top_rt .tb li .s4{
+    background-position: -384px -971px;
+    width:16px;
+    height:15px;
+    left: -5px;
+    top:2px;
+}
+/**搜素框**/
+.header_rc{
+   float: left;
+}
+.header_rc input{
+    float: left;
+}
+.header_rc input:first-child{
+    width: 350px;
+    height: 30px;border:none;
+    background-color: #CFCFCF;
+}
+.header_rc input:last-child{
+    height: 32px;
+    width: 80px;
+    border:none;
+    background-color: #573C33;
+    color:#fff;
+}
+
+/*搜素框下**/
+.header_rb ul{
+    width: 250px;height:20px;
+}
+.header_rb ul li{
+    float: left;margin-right: 10px;
+}
+.header_rb ul li a{
+    font-size: 12px;text-decoration: underline;color:#fff;
+}

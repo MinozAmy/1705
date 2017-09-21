@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>详情页的购物车</title>
+      <link rel="stylesheet" type="text/css" href="../css/font.css"/>
+    <style type="text/css">
+        *{
+            padding: 0;margin: 0;
+        }
+        ul,li{list-style: none;}
+        #hdiv{
+            width: 978px;
+            height: 712px;
+            border:1px solid #ccc;
+            overflow: hidden;
+        }
+        #hdiv_quan{
+            float:left;
+            width:770px;
+            overflow: hidden;
+        }
+        #hdivz{width:200px;float: left;}
+        #hdivy{width:372px;float:right;}
+        #hdivhui{
+            width:350px;
+            background-color: #DFDFDF;
+            border-radius: 5px;
+            margin-left: 5px;
+            margin-top: 10px;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+        #hdivhui p{
+            line-height: 20px;
+        }
+        #hdiv_you{
+            float:right;width:208px;
+            height:100%;
+        }
+        #hdiv .hp2{
+        font-size: 12px;
+        text-align: center;
+        line-height: 30px;
+        border-bottom:1px dashed #ccc;
+        }
+        #hdiv #hdivz .hpp1 span{
+            color:#ccc;
+            padding-left: 30px;
+        }
+        #hdiv #hdivz .hpp1 {
+            width:370px;
+        }
+        #hdiv .hp2 .hs1{
+        background:url('../img/hx1.png')no-repeat;
+        padding-right: 88px;
+        }
+        #hdiv .hp2 .hs2{
+        color:blue;border-bottom:1px solid blue;
+        }
+        #hdiv .hpp5{
+            background-color: #DFDFDF;
+            line-height: 30px;
+            font-size: 14px;
+        }
+        #hdiv .hpp5>input{
+        margin:5px;
+        }
+        #hdiv .hpp6>input{
+        margin:5px;
+        }
+        #hdiv .hpp6{
+            background-color: #DFDFDF;
+            margin-top: 4px;
+            line-height: 30px;
+            font-size: 14px;
+        }
+        #hdiv .hpp5 span{
+            color:red;
+            margin-right:40px;
+        }
+        #hdiv .hpp6 span{
+            margin-right:44px;
+            color:red;
+        }
+        #hdiv_you p{
+            text-align: center;
+            font-size: 12px;
+        }
+        #hdiv_you p i{
+            margin-left: 5px;
+        }
+        #hdiv_you .hpp8,#hdiv_you .hpp9,#hdiv_you .hpp10{
+            text-align:left;
+            margin-left: 30px;
+        }
+        #hdiv_you .hp3{
+            margin-top: 40px;
+        }
+        #hdiv_you p button{
+            margin-left: 5px;
+            font-size: 10px;
+            color:#ccc;
+            width:90px;
+            line-height: 18px;
+        }
+        #hdiv #hdiv_quan #hdivy .hpriceBox{
+            border-left:1px solid #ccc;
+            border-top:1px solid #ccc;
+            width:360px;
+            margin-left:5px;
+            position:relative;
+        }
+        #hdiv #hdiv_quan #hdivy .hpriceBox li{
+            width:360px;
+            height:30px;
+            line-height: 30px;
+            border-bottom:1px solid #ddd;
+            font-size:14px;
+        }
+        #hdiv #hdiv_quan #hdivy .hpriceBox li:nth-child(1){
+            font-size:16px;
+            font-weight:bold;
+            background-color:#F3F3F3;
+        }
+        #hdiv #hdiv_quan #hdivy .hpriceBox li:nth-child(3),#hdiv #hdiv_quan #hdivy .hpriceBox li:nth-child(5){
+            background:#f5f5f5;
+        }
+        #hdiv #hdiv_quan #hdivy .hpriceBox li:nth-child(1) span:nth-child(      4){
+            color:#000;
+        }
+        #hdiv #hdiv_quan #hdivy .hpriceBox li span{
+            padding-left:5px;
+            height:30px;
+            display:block;
+            float:left;
+            border-right:1px solid #ddd;
+        }
+        #hdiv #hdiv_quan #hdivy .hpriceBox li span:nth-child(1){
+            width:55px;
+        }
+        #hdiv #hdiv_quan #hdivy .hpriceBox li span:nth-child(2){
+            width:43px;
+        }
+        #hdiv #hdiv_quan #hdivy .hpriceBox li span:nth-child(3){
+            width:170px;
+        }
+        #hdiv #hdiv_quan #hdivy .hpriceBox li span:nth-child(4){
+            width:68px;
+            color:red;
+        }
+        #hdiv #hdiv_quan #hdivy .hpriceBox .hpriceBox_1{
+            width:60px;
+            height:62px;
+            background-color: #f5f5f5;
+            bottom:1px;
+            font-size: 13px;
+            padding-top: 30px;
+            position:absolute;
+            left:0;
+        }
+        #hdiv #hdiv_quan #hdivy .hsize {
+            font-size: 15px;
+            height:22px;
+            margin:14px 0 14px 6px;
+        }
+        #hdiv #hdiv_quan #hdivy .hsize span{
+            display:block;
+            float:left;
+            height:22px;
+            line-height: 22px;
+        }
+        #hdiv #hdiv_quan #hdivy .hsize ul{
+            display:inline-block;
+        }
+        #hdivy .hsize ul li{
+            float:left;
+            width:36px;
+            height:20px;
+            text-align: center;
+            font-size: 14px;
+            line-height: 20px;
+            border:1px solid #ccc;
+            margin:0 6px;
+        }
+        #hdivz{
+            position:relative;
+        }
+        #hdivz .hpp11{
+            position:absolute;
+            top: 259px;left:520px;
+        }
+        #hdivz .hpp1{
+            position:absolute;
+            top: -5px;left:400px;
+            height:50px;
+            width:100%;
+            font-size:14px;
+            line-height: 20px;
+            font-weight: bold;
+        }
+        #hdivy .hpp2{
+            margin-top:40px;
+        }
+        #hdivz .hpp12{
+            position:absolute;
+            top:280px;left:520px;
+        }
+        #hdiv #hdiv_quan #hdivy .hcolor {
+            font-size: 15px;
+            height:22px;
+            margin:14px 0 14px 6px;
+        }
+        #hdiv #hdiv_quan #hdivy .hcolor span{
+            display:block;
+            float:left;
+            height:22px;
+            line-height: 22px;
+        }
+        #hdiv #hdiv_quan #hdivy .hcolor ul{
+            display:inline-block;
+        }
+        #hdivy .hcolor ul li{
+            float:left;
+            width:50px;
+            height:20px;
+            text-align: center;
+            font-size: 14px;
+            line-height: 20px;
+            border:1px solid #ccc;
+            margin:0 6px;
+        }
+        #hdivy .hsize ul .huangweibingbiaoqian{
+           border:1px solid red;
+        }
+        #hdivy .hcolor ul .huangweibingbiaoqian{
+           border:1px solid red;
+        }
+        #hdiv #hdivz .goods{
+            width:250px;
+            height:78px;
+            margin-top:10px;
+            text-align: center;
+            margin-left: 60px;
+            position:relative;
+            overflow: hidden;
+            margin-right: 60px;
+        }
+        #hdiv #hdivz .goods ul{
+            width: 600px;
+            position: absolute;
+        }
+        #hdiv #hdivz .goods ul li{
+            float:left;
+        }
+        #hdiv #hdivz .hgoods #himgg1{
+        width:300px;
+        height:200px;
+        margin-left: 40px;
+        }
+        #hdiv #hdivz .goods img{
+        width:68px;
+        height:68px;
+        }
+        #hdiv #hdivz .imgl{
+            width: 15px;
+            height: 30px;
+            position: absolute;
+            top: 234px;
+            left: 34px;
+        }
+        #hdiv #hdivz .imgr{
+            width: 15px;
+            height: 30px;
+            position: absolute;
+            top: 234px;
+            right: -137px;
+            z-index: 99;
+        }
+        #hdiv .hdiv1{margin-bottom: 10px;}
+        #hdiv .hdiv2{
+            border:1px dashed black;
+            margin-bottom: 2px;
+        }
+        #hdiv .hdiv3{
+            color:#F0F0F0;
+            background-color: #F0F0F0;
+        }
+        #hdiv .hdiv4 .hspan1 #num{
+            width:60px;
+            height:20px;
+        }
+        #hdiv .hdiv4 .hspan2{
+            position:absolute;
+            top: 566px;left:580px;
+            width:182px;
+            height:39px;
+        }
+        .goods li.active{border:2px solid #f60;padding:1px;}
+
+    </style>
+</head>
+<body>
+<div id="hdiv">
+<p>home>Louis Vuitton>Monogram Canvas>Monogram Canvas Artsy GM M40259</p>
+<div id="hdiv_quan">
+    <div id="hdivz">
+        <div id="hdivzz"></div>
+        <img src="../../img/12.png" class="imgl">
+        <div class="goods">        
+            <ul class="hul1">
+                <li><img src="../img/1.jpg"  data-src="../img/1.jpg"/></li>
+                <li><img src="../img/2.jpg"  data-src="../img/2.jpg"/></li>
+                <li><img src="../img/3.jpg"  data-src="../img/3.jpg"/></li>
+                <li><img src="../img/4.jpg"  data-src="../img/4.jpg"/></li>
+                <li><img src="../img/5.jpg"  data-src="../img/5.jpg"/></li>
+                <li><img src="../img/1.jpg"  data-src="../img/1.jpg"/></li>
+                <li><img src="../img/2.jpg"  data-src="../img/2.jpg"/></li>
+                <li><img src="../img/3.jpg"  data-src="../img/3.jpg"/></li>
+            </ul>
+            
+        </div>
+        <img src="../../img/13.png" class='imgr'>
+    </div>
+    <div id="hdivy">
+        <p class="hpp1"></p>
+        <p class="hpp2"><img src="../img/hpp2.png"/></p>
+        <div class="hpriceBox">
+           <ul>  
+                        <li>
+                          <span>Order</span>
+                          <span>Qty</span>
+                          <span>Description</span>
+                          <span>Price</span>
+                        </li>
+                        <li>
+                          <span>Retail</span>
+                          <span>1-4</span>
+                          <span>Any Items＜5</span>
+                          <span class="price">40</span>
+                        </li>
+                        <li>
+                          <span>Retail</span>
+                          <span>5-9</span>
+                          <span>5≤Same items＜10</span>
+                          <span class="price_1">39</span>
+                        </li>
+                        <li>
+                          <span>Retail</span>
+                          <span>9-19</span>
+                          <span>10≤Same items＜20</span>
+                          <span class="price_2">38</span>
+                        </li>
+                        <li>
+                          <span>Retail</span>
+                          <span>20+</span>
+                          <span>Same items≥20</span>
+                          <span class="price_3">37</span>
+                        </li>
+                        <div class="hpriceBox_1">
+                          Factory
+                          Wholesale
+                        </div>
+                      </ul>
+        </div>
+        <div id="hdivhui">
+            <p>List price：py</p>
+            <p>Our price：py</p>
+            <p><img src="../img/hpp8.png" alt="" /></p>
+        </div>
+        <div class="hsize">
+            <span>Size：</span>
+            <ul class="hbq1">
+              <li>36</li>
+              <li>37</li>
+              <li>38</li>
+              <li>39</li>
+              <li>40</li>
+            </ul>
+        </div>
+        <div class="hcolor">
+            <span>Color:</span>
+            <ul class="hbq2">
+                <li>Black</li>
+                <li>Red</li>
+                <li>Yellow</li>
+                <li>Blue</li>
+                <li>White</li>
+            </ul>
+        </div>
+        <div class="hdiv1">
+            <p class="hpp5">
+                <input type="checkbox"/>Genuine Original Package<span>[+py6. 8.99]</span>
+                <a href="#">View</a><i>↓</i>
+            </p>
+            <p class="hpp6">
+                <input type="checkbox"/>Genuine Original Package
+                <span>[+py6. 8.99]</span><a href="#">View</a><i>↓</i>
+            </p>
+        </div>
+        <div class="hdiv2">
+        </div>
+        <div class="hdiv3">
+            1
+        </div>
+        <div class="hdiv4">
+          <span class="hspan1">
+                Quantity:
+                <input type="number" placeholder="0" id="num" />
+          </span>
+          <span class="hspan2">
+              <img src="../img/hppp1.png" />
+          </span>
+        </div>
+    </div>
+</div>
+<div id="hdiv_you">
+    <p class="hp1">In Stock!</p>
+    <p class="hp2"><span class="hs1"></span>(<span class="hs2">20</span>reviews)</p>
+    <p class="hp4">
+    <i class="icon1 iconfont ">&#xe613;</i>
+    <i class="icon2 iconfont ">&#xe633;</i>
+    <button><span></span>Tell a Friend</button>
+    </p>
+    <p class="hpp8"><span><img src="../img/hpp5.png" alt="" /></span>Add to Wish List</p>
+    <p class="hpp9"><span><img src="../img/hpp6.png" /></span>Contace Us</p>
+    <p class="hpp10"><span><img src="../img/hpp7.png" alt="" /></span>Print</p>
+    <p class="hp3"><img src="../img/hs2.png" /></p>
+</div>
+</div>
+</body>
+    <script src="../js/hwbb_bq.js"></script>
+    <script src="../js/hwbb_1.js"></script>
+</html>
